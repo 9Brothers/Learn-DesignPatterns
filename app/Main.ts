@@ -1,11 +1,12 @@
+import { Duck } from './01_Strategy/Duck';
+import { MallardDuck } from './01_Strategy/MallardDuck';
+import { ModelDuck } from './01_Strategy/ModelDuck';
+import { FlyRocketPowered } from './01_Strategy/FlyRocketPowered';
+import { WeatherStation } from "./02_Observer/WeatherStation";
+import { StarbuzzCoffee } from './03_Decorator/StarbuzzCoffee';
+
 /*
   // STRATEGY
-
-  import { Duck } from './01_Strategy/Duck';
-  import { MallardDuck } from './01_Strategy/MallardDuck';
-  import { ModelDuck } from './01_Strategy/ModelDuck';
-  import { FlyRocketPowered } from './01_Strategy/FlyRocketPowered';
-
   let mallard:Duck = new MallardDuck();
   mallard.performQuack();
   mallard.performFly();
@@ -17,7 +18,10 @@
   model.performFly()
 */
 
+ 
 // OBSERVER
-import { WeatherStation } from "./02_Observer/WeatherStation";
+// new WeatherStation().run();
 
-new WeatherStation().run();
+
+// DECORATOR
+StarbuzzCoffee.Run();
