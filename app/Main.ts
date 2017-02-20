@@ -1,3 +1,4 @@
+import { PizzaTestDrive } from './04_Factory/PizzaTestDrive';
 import { Duck } from './01_Strategy/Duck';
 import { MallardDuck } from './01_Strategy/MallardDuck';
 import { ModelDuck } from './01_Strategy/ModelDuck';
@@ -24,4 +25,7 @@ import { StarbuzzCoffee } from './03_Decorator/StarbuzzCoffee';
 
 
 // DECORATOR
-StarbuzzCoffee.Run();
+// StarbuzzCoffee.Run();
+
+// FACTORY
+PizzaTestDrive.Run();
