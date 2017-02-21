@@ -1,3 +1,5 @@
+import { RemoteLoader } from './06_Command/RemoteLoader';
+import { RemoteControlTest } from './06_Command/RemoteControlTest';
 import { PizzaTestDrive } from './04_Factory/PizzaTestDrive';
 import { Duck } from './01_Strategy/Duck';
 import { MallardDuck } from './01_Strategy/MallardDuck';
@@ -28,4 +30,8 @@ import { StarbuzzCoffee } from './03_Decorator/StarbuzzCoffee';
 // StarbuzzCoffee.Run();
 
 // FACTORY
-PizzaTestDrive.Run();
+// PizzaTestDrive.Run();
+
+// COMMAND
+// RemoteControlTest.Run();
+RemoteLoader.Run();
