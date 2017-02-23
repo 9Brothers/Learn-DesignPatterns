@@ -1,3 +1,5 @@
+import { HomeTheaterTestDrive } from './07_Adapter_Facade/Facade/HomeTheaterTestDrive';
+import { DuckTestDrive } from './07_Adapter_Facade/Adapter/DuckTestDrive';
 import { RemoteLoader } from './06_Command/RemoteLoader';
 import { RemoteControlTest } from './06_Command/RemoteControlTest';
 import { PizzaTestDrive } from './04_Factory/PizzaTestDrive';
@@ -34,4 +36,10 @@ import { StarbuzzCoffee } from './03_Decorator/StarbuzzCoffee';
 
 // COMMAND
 // RemoteControlTest.Run();
-RemoteLoader.Run();
+// RemoteLoader.Run();
+
+// ADAPTER
+// DuckTestDrive.Run();
+
+// FACADE
+HomeTheaterTestDrive.Run()
