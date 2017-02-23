@@ -1,7 +1,8 @@
-import { IObserver } from './IObserver';
-import { IDisposable } from './IDisposable';
+import { IObserver } from '../../../CSharpToTypescript/System/IObserver';
+import { IObservable } from '../../../CSharpToTypescript/System/IObservable';
+import { IDisposable } from '../../../CSharpToTypescript/System/IDisposable';
+
 import { Measurement } from './Measurement';
-import { IObservable } from './IObservable';
 
 export class MeasurementReporter implements IObserver<Measurement>{
   private unsubcriber: IDisposable;

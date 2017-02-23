@@ -1,3 +1,4 @@
+import { BeverageTestDrive } from './08_Template_Method/BeverageTestDrive';
 import { HomeTheaterTestDrive } from './07_Adapter_Facade/Facade/HomeTheaterTestDrive';
 import { DuckTestDrive } from './07_Adapter_Facade/Adapter/DuckTestDrive';
 import { RemoteLoader } from './06_Command/RemoteLoader';
@@ -42,4 +43,7 @@ import { StarbuzzCoffee } from './03_Decorator/StarbuzzCoffee';
 // DuckTestDrive.Run();
 
 // FACADE
-HomeTheaterTestDrive.Run()
+// HomeTheaterTestDrive.Run()
+
+// TEMPLATE METHOD
+BeverageTestDrive.Run()
